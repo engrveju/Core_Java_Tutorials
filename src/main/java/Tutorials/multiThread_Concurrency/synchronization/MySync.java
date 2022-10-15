@@ -19,7 +19,6 @@ public class MySync {
                 }
             }
         };
-
         Thread  t1 = new Thread(()->
         {
             for (int i = 1; i <= 5; i++) {
